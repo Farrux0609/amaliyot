@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* NAVBAR QISMI..... */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+nav .navbar_text ul{
+    display: flex;
+}
+nav .navbar_text ul li{
+    margin: 0 24px;
+}
+nav .navbar_text ul li a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #230B59;
+}
+nav .btns_1 .btn_1{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    background-color: #4840BB;
+    padding: 11px 20px;
+}
+.btns_1:hover .btn_1{
+    background-color: #fff;
+    color: #230B59;
+    border: 1px solid #230B59;
+    border-radius: 6px;
+    cursor: pointer;
+}
+nav .btns_1 .btn-2{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #4840BB;
+    border-radius: 6px;
+    padding: 11px 20px;
+    border: none;
+    margin-left: 17px;
+}
+.btns_1:hover .btn-2{
+    background-color: #fff;
+    color: #230B59;
+    border: 1px solid #230B59;
+    border-radius: 6px; 
+    cursor: pointer;
+}
+/* HEADER QISMI....... */
+
+.box{
+    width: 100%;
+    height: 559px;
+    display: flex;
+    justify-content: space-between;
+}
+.box .box_img{
+    width: 55%;
+    height: 559px;
+}
+.box_img img{
+    width: 100%;
+    height: 559px;
+    margin-top: 35px;
+}
+.box .box_text{
+    width: 45%;
+    height: 559px;
+}
+.box_text h1{
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 1.899px;
+    color: #230B59;
+    margin-top: 150px;
+    margin-left: 64px;
+    width: 355px;
+}
+.box_text p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #230B59;
+    margin-top: 47px;
+    margin-left: 64px;
+    width: 249px;
+}
+.box_text button{
+    margin-top: 40px;
+    background: #4840BB;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border:none;
+    padding: 11px 20px;
+    margin-left: 64px;
+}
+.footer_img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.footer_img img:nth-child(1){
+    width: 15%;
+    height: 71px;
+}
+.footer_img img:nth-child(2){
+    width: 14%;
+    height: 52px;
+}
+.footer_img img:nth-child(3){
+    width: 12%;
+    height: 50px;
+}
+.footer_img img:nth-child(4){
+    width: 10%;
+    height: 50px;
+}
+.footer_img img:nth-child(5){
+    width: 10%;
+    height: 50px;
+}
+.footer_img img:nth-child(6){
+    width: 10%;
+    height: 50px;
+}
+
+/* MAIN QISMI......... */
+
+main .designs{
+    width: 100%;
+    height: 525px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.designs .text_design{
+    width: 40%;
+    height: 525px;
+}
+.designs .img_design{
+    width: 60%;
+    height: 525px;
+}
+.text_design h1{
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 54px;
+    letter-spacing: 3px;
+    color: #230B59;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.text_design p{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #230B59;
+    width: 360px;
+    margin-left: 20px;
+}
+.text_design .btn{
+    background: #fff;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #230B59;
+    border: none;
+    margin-left: 20px;  
+    padding: 11px 20px;  
+    margin-top: 38px;
+    border: 1px solid #230B59;
+}
+.btn:hover{
+    color: #fff;
+    border-radius: 6px;
+    background-color: #4840BB;
+    cursor: pointer;
+    border: none;
+}
+.text_design .btn_2{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #230B59;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 11px 20px;
+    border: 1px solid #230B59;
+    margin-top: 38px;
+}
+.btn_2:hover{
+    color: #fff;
+    border-radius: 6px;
+    background-color: #4840BB;
+    cursor: pointer;
+    border: none;
+}
+.visa .visa_card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 696px;
+}
+.visa_card .visa_img{
+    width: 60%;
+    height: 696px;
+    margin-top: 190px;
+}
+.visa_card .visa_text{
+    width: 40%;
+    height: 696px;
+    margin-left: 90px;
+    margin-top: 350px;
+}
+.visa_text h1{
+    font-weight: normal;
+    font-size: 49px;
+    line-height: 54px;
+    letter-spacing: 3px;
+    color: #230B59;
+}
+.visa_text p{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #230B59;
+    margin-top: 10px;
+    width: 360px;
+}
+.visa_btns .bttn{
+    padding: 11px 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    color: #230B59;
+    border: 1px solid #230B59;
+    margin-top: 50px;
+}
+.visa_btns .visa_btn2{
+    margin-left: 20px;
+}
+.bttn:hover{
+    background-color: #230B59;
+    color: #fff;
+    cursor: pointer;
+}
+.detalies{
+    width: 100%;
+    height: 576px;
+    /* padding: 10% 10% 5% 25%; */
+    background: #4840BB;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 56px;
+}
+.detalies .img_detal{
+    width: 640px;
+    height: 542px;
+}
+.detalies .img_detal img{
+    width: 640px;
+    height: 542px;
+    margin: 27px 0 7px 0;
+}
+.detalies .text_detal h1{
+    margin-top: 90px;
+    margin-left: 208px;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 54px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    width: 303px;
+}
+.detalies .text_detal p{
+    margin-top: 16px;
+    margin-left: 208px;
+    width: 380px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.background{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 563px;
+    background: #230B59;
+}
+.background img{
+    width: 30%;
+    height: 449px;
+    margin-top: 248px;
+}
+.contact .contact_img img{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 559px;
+    height: 559px;
+}
+.contact_text h1{
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #230B59;
+    width: 911px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+}
+.contact_btn button{
+    padding: 11px 20px;
+    background-color: #230B59;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 48px;
+}
+.contact_p p{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #230B59;
+    margin-top: 94px;
+}
+.contact_icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 41px;
+}
+.contact_icons img:nth-child(1){
+    width: 59,86px;
+    height: 29,61px; 
+}
+.contact_icons img:nth-child(2){
+    width: 174px;
+    height: 33px;
+}
+.contact_icons img:nth-child(3){
+    width: 333,37px;
+    height: 43,44px;
+}
+.contact_icons img:nth-child(4){
+    width: 235px;
+    height: 60px;
+}
+.contact_icons img:nth-child(5){
+    width:60px;
+    height: 47px;
+}
+footer{
+    width: 100%;
+    height: 354px;
+    background: #18172B;
+    padding: 0 5% 0 5%;
+    margin: auto;
+    margin-top: 150px;
+}
+footer a{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+footer ul li{
+    margin-top: 32px;  
+}
+footer .footer_ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -64px;
+}
+.footer_ul .frist_ul{
+    margin-left: 728px;
+}
+footer img{
+    margin-top: 64px;
+}
+footer hr{
+    margin-top: 31px;
+}
+footer .hr_p p{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B7B7C0;
+    margin-top: 32px;
+}

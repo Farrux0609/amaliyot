@@ -1,0 +1,155 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(120deg,aqua,rgb(8,47,8));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 95%;
+    height: 80%;
+    border:10px solid black;
+    border-radius: 10px;
+    background-image: url(./photo_2021-09-13_22-01-01.jpg);
+}
+.box_explorem{
+    backdrop-filter: blur(7px);
+    width: 250px;
+    height: 400px;
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-left: 20px; 
+}
+.box_explorem h1{
+    color: rgb(207, 207, 207);
+}
+.box_explorem p{
+    margin-top: 15px;
+    color: rgb(207, 207, 207);
+}
+.box_explorem button{
+    color: black;
+    padding: 7px 25px ;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.fas{
+    margin-left: 15px;
+    color: black;
+}
+.box_img{
+    position: absolute;
+    background-image: url(./photo_2021-09-13_22-01-08.jpg);
+    width: 180px;
+    height: 280px;
+    background-size:cover;
+    bottom:45px;
+    left: 550px;
+}
+.box_image{
+    position: absolute;
+    background-image: url(./photo_2021-09-13_21-32-53.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    bottom:45px;
+    left: 800px;
+}
+.blur{
+    position: absolute;
+    width: 50px;
+    height: 241px;
+    background-color: rgba(255, 255, 255, 0.356);
+    right: 1px;
+    top: 1px;
+}
+.blur2{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.239);
+    width: 50px;
+    height: 241px;
+    right: 1px;
+    top: 241px;
+}
+.text h1{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 200px;
+    left: 50px;
+    font-size: 50px;
+    color: #fff;
+} */
+@media screen and (max-width:400px) {
+    .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6,1fr );
+    grid-template-areas: 
+    "nav box nav"
+    "box nav box"
+    "box2 box3 box2"
+    "box3 box2 box3"
+    "box4 box5 box4"
+    "box5 box4` box5"
+    "main main main "
+    "footer footer footer";
+}
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6, 1fr );
+    grid-template-areas: 
+     "nav nav nav"
+    "main box box"
+    "main box2 box3"
+    "main box4 box5 "
+    "footer footer footer";
+
+}
+
+nav{
+    background-color: gray;
+    grid-area: nav;
+}
+main{
+    background-color: green;
+    grid-area: main;
+}
+.box{
+    background-color: red;
+}
+.box2{
+    background-color: blue;
+    grid-area: box2;
+}
+.box3{
+    background-color: black;
+    grid-area: box3;
+    color: #fff;
+}
+.box4{
+    background-color:yellow ;
+    grid-area: box4;
+}
+.box5{
+    background-color: aqua;
+    grid-area: box5;
+}
+footer{
+    background-color: darkgoldenrod;
+    grid-area: footer;
+}

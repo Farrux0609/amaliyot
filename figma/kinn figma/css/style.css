@@ -1,0 +1,87 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+}
+.box{
+        
+    width: 100%;
+    height: 100vh;
+}
+.box .frist_image{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.box .img_kann{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.box .one_ul{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    top: 15px;
+    left: 90px;
+}
+.box .two_ul{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    right: 20px;
+    top: 15px;
+}
+.box .two_ul li{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.box .one_ul li{
+    margin-left: 30px;
+    font-size: 15px;
+
+}
+.box .frist_h1{
+    position: absolute;
+    left: 20px;
+    top: 220px;
+}
+.box .h6_shop{
+    position: absolute;
+    left: 20px;
+    top: 340px;
+}
+.container .main_img{
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    top: 670px;
+    right: 540px;
+}
+.container .main_h1{
+    position: absolute;
+    top: 1200px;
+    left: 20px;
+}
+.container .frame{
+    position: absolute;
+    top: 1760px;
+    left: 20px;
+    font-size: 10px;
+}
+.main_box{
+    position: absolute;
+    top: 1800px;
+}
+.main_box .big_img{
+    position: absolute;
+    left: 20px;
+}
+.main_box .small_img{
+    position: absolute;
+    right: 20px;
+} */

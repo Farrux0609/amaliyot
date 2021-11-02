@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+span{
+    position: absolute;
+    top: 60%;
+    font-size: 70px;
+    left: .5%;
+    cursor: pointer;
+}
+span:nth-child(2){
+    position: absolute;
+    top: 60%;
+    font-size: 70px;
+    left: 98%;
+    text-align: center;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    overflow-x:scroll ;
+    position: relative;
+    margin-top: 300px;
+}
+section::-webkit-scrollbar{
+    visibility: hidden;
+}
+div{
+    background-image: url(../img/photo_2021-10-14_01-40-28.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    min-width: 320px;
+    height: 250px;
+    background-color: black;
+    margin-right: 20px;
+}
+body{
+    background-image:linear-gradient(500deg,aqua,white,rgb(0, 255, 119));
+}

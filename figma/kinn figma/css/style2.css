@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    padding: 50px 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin-left: 30px;
+}
+nav a{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 1.575px;
+    text-transform: uppercase;
+    color: #56593D;
+}
+nav .links{
+    display: none;
+}
+nav ul li a i{
+    transform: rotate(-90deg);
+}
+header img{
+    margin-left: -70px;
+}
+
+header .icons i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main{
+    width: 100%;
+    height: 700px;
+}
+main img{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+main .text_design{
+    position: absolute;
+    top: 462px;
+    right: 120px;
+}
+.text_design h6{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 1.8px;
+    color: #56593D;
+}
+.text_design h1{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: right;
+    color: #56593D;
+}
+.text_design button{
+    position: absolute;
+    background-color: #56593D;
+    padding: 17px 25px;
+    top: 120px;
+    right: 0;
+    border: none;
+
+}
+/* kitchen secrtion ///.... */
+.kitchen .text_happy h1{
+    padding-top: 60px;
+    font-weight: normal;
+    font-size: 57px;
+    line-height: 81px;
+    text-align: center;
+    color: #56593D;
+    width: 90%;
+    margin:auto;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.btns a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #56593D;
+    margin-left: 37.5px;
+    margin-right: 37.5px;
+    border-bottom: 2px solid #56593D;
+}
+.kitchen .maple_board{
+    margin-top: 153px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #56593D;
+}
+
+
+.imagies{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    flex-wrap: wrap;
+}
+.imagies .image_box{
+    width: 32%;
+    height: 390px;
+    margin: auto;
+}
+.imagies .image_box img{
+    width: 100%;
+    height: 360px;
+}
+.img_bottom_text{
+    display: flex;
+    justify-content: space-around;
+}
+.imagies .image_box .images_text{
+    width: 100%;
+    margin-top: 15px;
+    width: 150px;
+    text-align: center;
+    margin-left: 30%;
+
+}
+.imagies .image_box .images_text a{
+        font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #56593D;
+}
+.kitchen .the_essentials_img{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin-top: 120px;
+}
+.kitchen .the_essentials_img img{
+    width: 100%;
+    height: 700px;
+}
+.kitchen .the_essentials_img a{
+    position: absolute;
+    top: 62px;
+    left: 40%;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1.8px;
+    color: #56593D;
+}
+.kitchen .the_essentials_img h2{
+    position: absolute;
+    top: 95px;
+    left: 7%;
+    right: 7%;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #56593D;    
+}
+.kitchen .designs{
+    width: 100%;
+    height: 746px;
+    display: flex;
+    justify-content: space-between;
+}
+.designs .design_image{
+    width: 55%;
+    height: 618px;
+    margin-top: 104px;   
+}
+.designs .design_image img{
+    width: 100%;
+    height: 618px;
+    object-fit: cover;
+}
+.designs .design{
+    width: 45%;
+    height: 618px;
+    margin-top: 104px;
+    text-align: center;
+}
+.designs .design h1{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 39px;
+    text-align: center;
+    color: #56593D;
+}
+.designs .design p{
+    width: 70%;
+    margin: auto;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #56593D;
+ 
+}
+.designs .design img{
+    margin-top: 32px;
+    margin-bottom: 33px;
+}
+.kitchen .text_and_img{
+    width: 100%;
+    height: 1014px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.text_and_img .text_centr{
+    width: 45%;
+    height: 885px;
+}
+.text_and_img .text_centr h1{
+    margin-top: 215px;
+    font-weight: normal;
+    font-size: 29px;
+    line-height: 39px;
+    text-align: center;
+    color: #56593D;
+}
+.text_and_img .text_centr p{
+    width: 75%;
+    margin-left: 60px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #56593D;
+}
+.text_and_img .image-rectangle{
+    width: 55%;
+    height: 885px;
+}
+.text_and_img .image-rectangle img{
+    width: 100%;
+    height: 885px;
+    margin-top: 152px;
+    object-fit: cover;
+}
+.text_and_img .text_centr .img_border img{
+    margin-top: 32px;
+    margin-bottom: 33px;
+    margin-left: 250px;
+}
+.kitchen .text_sing-up{
+    width: 100%;
+    height: 279px;
+}
+.text_sing-up h1{
+    margin-top: 168px;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 39px;
+    text-align: center;
+    color: #56593D;
+}
+.text_sing-up p{
+    margin-top: 16px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 29px;
+    text-align: center;
+    color: #56593D;
+}
+.text_sing-up .subscribe{
+    margin-left: 30%;
+}
+.text_sing-up .subscribe input{
+    margin-right: 16px;
+    width: 40%;    
+    color: #56593D;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 48px;
+    outline: none;
+}
+.text_sing-up .subscribe button{
+
+    width: 144px;
+    height: 30px;
+    margin-top: 48px;
+    background-color: #56593D;
+    color: #fff;
+    border-radius: 0px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #FFFFEF;
+    margin-top: 48px;
+}
+.text_sing-up h2{
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #56593D;
+    margin-top: 166px;
+}
+.image_design{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.image_design img{
+    margin-top: 175px;  
+    width: 25%;
+    height: 320px;
+    margin-left: 4px;
+    margin-right: 4px;
+    object-fit: cover;
+
+}
+footer{
+    width: 100%;
+    height: 382px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #56593D;
+}
+.text_frist .h1_design{
+    margin-top: 64px;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFEF;
+}
+.text_frist p{
+    margin-top: 17px;
+    width: 62%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFEF;
+}
+footer .explore{
+    margin-top: 48px;
+}
+footer .explore li{
+    list-style: none;
+    margin-top: 16px;
+}
+footer .explore li a{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1.575px;
+    text-transform: uppercase;
+    color: #FFFFEF;
+}
+footer .help{
+    margin-top: 48px;
+}
+footer .help li{
+    list-style: none;
+    margin-top: 16px;
+}
+footer .help li a{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1.575px;
+    text-transform: uppercase;
+    color: #FFFFEF;
+}
+footer .icons_footer .fab{
+    font-size: 25px;
+    margin-top: 62px;
+    margin-left: 19px;
+}
